@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com -->
+<!-- Last Published: Sat Nov 15 2025 01:30:45 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="" data-wf-page="6911483925d3c8f4ba653da3" data-wf-site="6911483925d3c8f4ba653dcf" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Aithra - Webflow HTML Website Template</title>
+        <meta content="Aithra is a modern AI platform website template built for innovation. Showcase your AI products, automate workflows, and publish insights with CMS-powered blogs — all in a sleek dark, modern design." name="description"/>
+        <meta content="Aithra - Webflow HTML Website Template" property="og:title"/>
+        <meta content="Aithra is a modern AI platform website template built for innovation. Showcase your AI products, automate workflows, and publish insights with CMS-powered blogs — all in a sleek dark, modern design." property="og:description"/>
+        <meta content="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691307fba767a7edf0f76dcf_Screenshot%202025-11-11%20at%2016.53.15.png" property="og:image"/>
+        <meta content="Aithra - Webflow HTML Website Template" property="twitter:title"/>
+        <meta content="Aithra is a modern AI platform website template built for innovation. Showcase your AI products, automate workflows, and publish insights with CMS-powered blogs — all in a sleek dark, modern design." property="twitter:description"/>
+        <meta content="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691307fba767a7edf0f76dcf_Screenshot%202025-11-11%20at%2016.53.15.png" property="twitter:image"/>
+        <meta property="og:type" content="website"/>
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="Webflow" name="generator"/>
+        <link href="css/aiethra.webflow.shared.93d92c057.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect"/>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Manrope:300,regular,500,600,700,800:cyrillic,cyrillic-ext,greek,latin,latin-ext,vietnamese"]
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            !function(o, c) {
+                var n = c.documentElement
+                  , t = " w-mod-";
+                n.className += t + "js",
+                ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+            }(window, document);
+        </script>
+        <link href="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912e8d0a767a7edf0ee8e79_logo%20(6).png" rel="shortcut icon" type="image/x-icon"/>
+        <link href="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912e8d229aa69eda14e285e_logo%20(5).png" rel="apple-touch-icon"/>
+        <script type="text/javascript">
+            window.__WEBFLOW_CURRENCY_SETTINGS = {
+                "currencyCode": "USD",
+                "symbol": "$",
+                "decimal": ".",
+                "fractionDigits": 2,
+                "group": ",",
+                "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
+                "hideDecimalForWholeNumbers": false
+            };
+        </script>
+    </head>
+    <body class="body">
+        <img src="https://i.imgur.com/L8GQAfp.png" loading="lazy" sizes="(max-width: 1400px) 100vw, 1400px" srcset="https://i.imgur.com/L8GQAfp.png 500w, https://i.imgur.com/L8GQAfp.png 800w, https://i.imgur.com/L8GQAfp.png 1080w, https://i.imgur.com/L8GQAfp.png 1400w" alt="" class="background"/>
+        <nav class="header">
+            <div data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-no-shadow-container w-nav">
+                <div class="navbar-container">
+                    <a href="/" aria-current="page" class="navbar-brand w-nav-brand w--current">
+                        <img loading="lazy" src="https://i.imgur.com/UKEA4Zw.png" alt="Aithra company logo with a white house icon inside a blue circle next to the text &#x27;Aithra&#x27;." class="logo"/>
+                    </a>
+                    <nav role="navigation" class="navbar-wrapper w-nav-menu">
+                        <ul role="list" class="navbar-menu w-list-unstyled">
+                            <li class="list-item">
+                                <div class="menu-item">
+                                    <a href="/" aria-current="page" class="navbar-link w--current">Home</a>
+                                    <a href="/features" class="navbar-link">Features</a>
+                                    <a href="/pricing" class="navbar-link">Pricing</a>
+                                    <a href="/blog" class="navbar-link">Blog</a>
+                                    <a href="/careers" class="navbar-link">Careers</a>
+                                </div>
+                                <a href="/contact" class="button w-button">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="menu-button-nav w-nav-button">
+                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911bda9f78901523b7a1fb3_8ae5d0018c048151ab6797f40e3e0765_tabler--menu-4.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 550px) 93vw, (max-width: 767px) 512px, 100vw" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911bda9f78901523b7a1fb3_8ae5d0018c048151ab6797f40e3e0765_tabler--menu-4-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911bda9f78901523b7a1fb3_8ae5d0018c048151ab6797f40e3e0765_tabler--menu-4.png 512w" alt="White hamburger menu icon with three horizontal lines on a black background." class="icon"/>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main id="Hero" class="section">
+            <div class="padding-global">
+                <div data-w-id="9bac6594-2fa3-ef84-e150-dffea034e478" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="container-medium">
+                    <div data-w-id="e226b6a9-ee87-6963-264a-86b945308b22" class="section-tittle">
+                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" loading="lazy" alt="" class="icon mini-hero"/>
+                        <div class="badge">
+                            <div class="tittle-badge white">Intelligent Automation</div>
+                        </div>
+                        <div class="text">
+                            <h1 class="heading-style-h1 center white">Vision Development®</h1>
+                            <p class="paragraph-large center">Where strategy meets execution. Code your Vision, build your future.</p>
+                        </div>
+                        <div class="button-column">
+                            <a href="/contact" class="button w-button">Get In Touch</a>
+                            <a href="/blog" class="button secondary w-button">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="badge transparant">
+                        <div class="column-image">
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1321227438218547304.jpeg" alt="" class="profile-mini"/>
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/535857684172242956.png" alt="" class="profile-mini"/>
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1204143244477202502.jpeg" alt="" class="profile-mini"/>
+                        </div>
+                        <div class="tittle-badge">Loved by 1,500+ clients</div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <div class="scroll-down-indicator">
+            <div class="scroll-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="scroll-text">SCROLL DOWN</div>
+        </div>
+
+        <section id="Overview" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="ea7f4674-fc6c-a492-463e-f637b885218e" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle center">
+                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ab5b3c9ee4d0fb493e02_iconoir--flash-solid.png" loading="lazy" sizes="(max-width: 512px) 100vw, 512px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ab5b3c9ee4d0fb493e02_iconoir--flash-solid-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ab5b3c9ee4d0fb493e02_iconoir--flash-solid.png 512w" alt="" class="icon"/>
+                        <div class="badge">
+                            <div class="tittle-badge white">Customer service</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center"> 
+                                <span class="text-span">Discover </span>
+                                our innovative<span class="text-span"> customer </span>
+                                service.
+                            </h2>
+                            <p class="paragraph-large center">The main points needed by customers offered in our service.</p>
+                        </div>
+                    </div>
+                    <div class="overview-wrapper">
+                        <div data-w-id="ea7f4674-fc6c-a492-463e-f637b885219c" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="column-overview">
+                            <div class="card overview">
+                                <div class="content-wrapper">
+                                    <div class="icon-wrapper-outline">
+                                        <div class="icon-wrapper">
+                                            <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee053c89b8e52e3ef1_hugeicons--ai-brain-01.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee053c89b8e52e3ef1_hugeicons--ai-brain-01-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee053c89b8e52e3ef1_hugeicons--ai-brain-01.png 512w" class="icon mini"/>
+                                            <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                        </div>
+                                    </div>
+                                    <div class="content overview">
+                                        <div class="sub-heading-regular left">Compatibilty</div>
+                                        <p class="paragraph-regular left">Smooth, reliable compatibility across all platforms, motherboards, systems.</p>
+                                    </div>
+                                    <div class="badge two">
+                                        <div class="tittle-badge">OS</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card overview secondary">
+                                <div class="content-wrapper">
+                                    <div class="icon-wrapper-outline">
+                                        <div class="icon-wrapper">
+                                            <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae3704b66f493d9defe6_solar--chat-line-linear.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae3704b66f493d9defe6_solar--chat-line-linear-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae3704b66f493d9defe6_solar--chat-line-linear.png 512w" class="icon mini"/>
+                                            <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                        </div>
+                                    </div>
+                                    <div class="content overview">
+                                        <div class="sub-heading-regular left">Support Asstistance</div>
+                                        <p class="paragraph-regular left">Your reliable 24/7 support for quick and effective solutions.</p>
+                                    </div>
+                                    <div class="badge two">
+                                        <div class="tittle-badge">Support</div>
+                                    </div>
+                                </div>
+                                <img src="https://i.imgur.com/UFeBI4k.png" loading="lazy" data-w-id="a3236b9c-b358-d177-8306-1e6d201991ec" alt="Tumbnail Introduce" class="card-image-element"/>
+                            </div>
+                        </div>
+                        <div data-w-id="ea7f4674-fc6c-a492-463e-f637b88521a1" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="column-overview">
+                            <div class="card overview secondary">
+                                <div class="content-wrapper">
+                                    <div class="icon-wrapper-outline">
+                                        <div class="icon-wrapper">
+                                            <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae6aab472486ad9979e5_hugeicons--task-01.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae6aab472486ad9979e5_hugeicons--task-01-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ae6aab472486ad9979e5_hugeicons--task-01.png 512w" class="icon mini"/>
+                                            <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                        </div>
+                                    </div>
+                                    <div class="content overview">
+                                        <div class="sub-heading-regular left">Clean & Friendly Interface</div>
+                                        <p class="paragraph-regular left">Everything is just one click away.</br>Fast and hassle-free.</p>
+                                    </div>
+                                    <div class="badge two">
+                                        <div class="tittle-badge">Navigation</div>
+                                    </div>
+                                </div>
+                                <img src="https://i.imgur.com/6W72L1N.png" loading="lazy" data-w-id="a3236b9c-b358-d177-8306-1e6d201991ec" alt="Tumbnail Introduce" class="card-image-element"/>
+                            </div>
+                            <div class="card overview">
+                                <div class="content-wrapper">
+                                    <div class="icon-wrapper-outline">
+                                        <div class="icon-wrapper">
+                                            <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912ace84666a3bc91beb50d_Frame%20164371.png" class="icon mini"/>
+                                            <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                        </div>
+                                    </div>
+                                    <div class="content overview">
+                                        <div class="sub-heading-regular left">Instruction & Guides</div>
+                                        <p class="paragraph-regular left">Everything is described in detail, step by step, to help you in the simplest way!</p>
+                                    </div>
+                                    <div class="badge two">
+                                        <div class="tittle-badge">Instructions</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- <section id="Features" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="03fa0ad8-c8bd-eef7-2da1-b7cc619c3437" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle center">
+                        <div class="badge">
+                            <div class="tittle-badge white">Features</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">
+                                <span class="text-span">Discover </span>
+                                features to improve <span class="text-span">your</span>
+                                business.
+                            </h2>
+                            <p class="paragraph-large center">Solutions for modern business needs, tailored for startups to enterprises.</p>
+                        </div>
+                    </div>
+                    <div data-w-id="872818d5-bfba-a569-31aa-f79c6a79fbc4" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="wrapper">
+                        <div class="grid features">
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee09396f322b37d4c9_hugeicons--ai-chip.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee09396f322b37d4c9_hugeicons--ai-chip-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912adee09396f322b37d4c9_hugeicons--ai-chip.png 512w" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Smart Data Insights</div>
+                                    <p class="paragraph-regular center">Get instant analysis for fast decisions.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912acee3ac9aa44fab75e27_tdesign_dart-board.png" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Automated Reports</div>
+                                    <p class="paragraph-regular center">Generate and send reports automatically, saving you time.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912aced4ebb5dbbbbfd391c_ic_round-auto-mode.png" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Easy-to-Use Dashboards</div>
+                                    <p class="paragraph-regular center">Visualize complex data with simple dashboards.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912acee51f02284c52fe658_gg_track.png" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Real-Time Data Tracking</div>
+                                    <p class="paragraph-regular center">Monitor key metrics instantly, react to changes quickly.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912acedcf7da832a46ec13b_ic_outline-report.png" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Custom Reports</div>
+                                    <p class="paragraph-regular center">Create focused reports with the metrics you need.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                            <div class="card features">
+                                <div class="icon-wrapper-outline">
+                                    <div class="icon-wrapper">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912aceedbf37c6a34005441_Vector.png" class="icon mini"/>
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                    </div>
+                                </div>
+                                <div class="content features">
+                                    <div class="sub-heading-regular center">Collaborate Easily</div>
+                                    <p class="paragraph-regular center">Improve teamwork with tools for easy interaction.</p>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" loading="lazy" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                                <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" loading="lazy" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                                <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541d6_Star%201%20(2).svg" class="icon small"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="Pricing" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="0a12f7a2-3fc6-99c8-9a5c-57e76d5e64b1" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle center">
+                        <div class="badge">
+                            <div class="tittle-badge white">Pricing</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">
+                                Select a prouct <span class="text-span">that suits </span>
+                                your expectations.
+                            </h2>
+                            <p class="paragraph-large center">Select a product from those shown below to change your feature...</p>
+                        </div>
+                    </div>
+                    <div data-w-id="b166a2c4-6459-dffb-f7c5-ef018112e0e0" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="wrapper">
+                        <div class="grid pricing">
+                            <div data-wf--pricing-card--variant="base" class="plans-list">
+                                <div class="wrapper-plan">
+                                    <img src="https://i.imgur.com/l0tgJNL.jpeg" loading="lazy" sizes="(max-width: 1400px) 100vw, 1400px" srcset="https://i.imgur.com/l0tgJNL.jpeg 500w, https://i.imgur.com/l0tgJNL.jpeg 800w, https://i.imgur.com/l0tgJNL.jpeg 1080w, https://i.imgur.com/l0tgJNL.jpeg 1400w" alt="Blue digital circuit patterns with glowing grid lines on a dark background forming two abstract triangular shapes." class="element-pricing"/>
+                                    <div class="content-plan">
+                                        <div class="sub-heading-large">Fortnite Private</div>
+                                        <p class="paragraph-regular left">starting at: $7.99</p>
+                                        <button data-sellhub-product="ac3ab96d-c3d5-4ebd-b9a2-d380def5adbb" class="button pricing w-button">Purchase</button>
+                                    </div>
+                                </div>
+                                <div class="devinder"></div>
+                                <div class="list-plan">
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Windows 10-11 [2004-25h2] Supported</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Processors Supported: Intel & AMD</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Fully Undetected From EAC/BE</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">External & Ready For Tournaments</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Always Unbanned after 24h Ban</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-wf--pricing-card--variant="active" class="plans-list">
+                                <div class="wrapper-plan w-variant-2c144b12-f2e0-1a22-48f4-b3c5e5914768">
+                                    <img src="https://i.imgur.com/Cc4r00K.jpeg" loading="lazy" sizes="(max-width: 1400px) 100vw, 1400px" srcset="https://i.imgur.com/Cc4r00K.jpeg 500w, https://i.imgur.com/Cc4r00K.jpeg 800w, https://i.imgur.com/Cc4r00K.jpeg 1080w, https://i.imgur.com/Cc4r00K.jpeg 1400w" alt="Blue digital circuit patterns with glowing grid lines on a dark background forming two abstract triangular shapes." class="element-pricing"/>
+                                    <div class="content-plan">
+                                        <div class="sub-heading-large">Permanent Spoofer</div>
+                                        <p class="paragraph-regular left">starting at: $12.99</p>
+                                        <button data-sellhub-product="3ac15fc4-f028-4c4f-9d32-029966bfd3c0" class="button pricing w-button">Purchase</button>
+                                    </div>
+                                </div>
+                                <div class="devinder"></div>
+                                <div class="list-plan">
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Windows 10-11 [2004-25h2] Supported</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Every Motherboard are Supported</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Legitimate S.M.A.R.T. Spoofing System</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Including official Tournaments</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Permanent unban Solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-wf--pricing-card--variant="base" class="plans-list">
+                                <div class="wrapper-plan">
+                                    <img src="https://i.imgur.com/c8TpUbe.jpeg" loading="lazy" sizes="(max-width: 1400px) 100vw, 1400px" srcset="https://i.imgur.com/c8TpUbe.jpeg 500w, https://i.imgur.com/c8TpUbe.jpeg 800w, https://i.imgur.com/c8TpUbe.jpeg 1080w, https://i.imgur.com/c8TpUbe.jpeg 1400w" alt="Blue digital circuit patterns with glowing grid lines on a dark background forming two abstract triangular shapes." class="element-pricing"/>
+                                    <div class="content-plan">
+                                        <div class="sub-heading-large">Temporary Spoofer</div>
+                                        <p class="paragraph-regular left">starting at: $5.99</p>
+                                        <button data-sellhub-product="4204cc3d-e353-4253-8557-e203b4205e33" class="button pricing w-button">Purchase</button>
+                                    </div>
+                                </div>
+                                <div class="devinder"></div>
+                                <div class="list-plan">
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Windows 10-11 [2004-25h2] Supported</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Every Motherboard are Supported</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Hypervisor Spoofing</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">TPM & Disk Spoofing</p>
+                                    </div>
+                                    <div class="helper-sections">
+                                        <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911628aa66ae9bf48cd4962_ep--success-filled.png 512w" sizes="45px" class="icon"/>
+                                        <p class="paragraph-small">Temporary unban Solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="How-Works" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="3b328987-c349-ea82-9c1e-0045be7ee665" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle center">
+                        <div class="badge">
+                            <div class="tittle-badge white">How it Works?</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">
+                                <span class="text-span">How</span>
+                                Exactly Does <span class="text-span">Vision</span>
+                                works?
+                            </h2>
+                        </div>
+                    </div>
+                    <div data-w-id="3b328987-c349-ea82-9c1e-0045be7ee673" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="grid process">
+                        <div class="card works">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon" style="color: var(--_color-guide---global-style--title);">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                                <path d="M7 18h.01M15 18h.01"></path>
+                            </svg>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                            <div class="line"></div>
+                            <div class="content works">
+                                <div class="sub-heading-regular center">Payment Process</div>
+                                <p class="paragraph-regular center">Finalize the payment, receive the License & Loader</p>
+                            </div>
+                            <div class="line"></div>
+                            <div class="badge two">
+                                <div class="tittle-badge">01</div>
+                            </div>
+                        </div>
+                        <div class="card works">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon" style="color: var(--_color-guide---global-style--title);">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                                <path d="M15 11l-3-3-3 3"></path>
+                                <path d="M12 8v6"></path>
+                            </svg>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                            <div class="line"></div>
+                            <div class="content works">
+                                <div class="sub-heading-regular center">Client Setup</div>
+                                <p class="paragraph-regular center">Very simple setup and clean menu Interface catching your eye.</p>
+                            </div>
+                            <div class="line"></div>
+                            <div class="badge two">
+                                <div class="tittle-badge">02</div>
+                            </div>
+                        </div>
+                        <div class="card works">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon" style="color: var(--_color-guide---global-style--title);">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                            </svg>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/69116619cadc44160b6c3a7f_Element%20(2).png" alt="Minimalist black and white digital graphic with curved black top border and white horizontal bar beneath it, on a black background." class="element-card _2"/>
+                            <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691165d833ad0031000526b0_Element%20(1).png" alt="Diagram of a growing banana plant with roots, pseudostem, first leaf, main stem, future fruit cluster, and flower cluster labeled." class="element-card"/>
+                            <div class="line"></div>
+                            <div class="content works">
+                                <div class="sub-heading-regular center">Enjoy the gameplay</div>
+                                <p class="paragraph-regular center">Enjoy your new, better self in the new game universe ;)</p>
+                            </div>
+                            <div class="line"></div>
+                            <div class="badge two">
+                                <div class="tittle-badge">03</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-id="12abe025-9882-22e0-57a1-6a1319af11b8" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="helper-column center">
+                        <div class="badge">
+                            <div class="tittle-badge">Goods Availability</div>
+                        </div>
+                        <div class="badge">
+                            <div class="tittle-badge">Speed & Quality</div>
+                        </div>
+                        <div class="badge">
+                            <div class="tittle-badge">Undetectable</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Blog" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="614cfefb-4236-d306-e9ed-2ae781ed1aed" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle">
+                        <div class="badge">
+                            <div class="tittle-badge white">Our Blog</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">
+                                <span class="text-span">Our </span>
+                                Insights
+                            </h2>
+                            <p class="paragraph-large center">Latest thoughts on design, strategy, and innovation</p>
+                        </div>
+                    </div>
+                    <div class="collection-list-wrapper sections w-dyn-list">
+                        <div data-w-id="614cfefb-4236-d306-e9ed-2ae781ed1af6" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" role="list" class="grid blog w-dyn-items">
+                            <div id="w-node-_614cfefb-4236-d306-e9ed-2ae781ed1af7-ba653da3" role="listitem" class="item blog w-dyn-item">
+                                <a data-w-id="614cfefb-4236-d306-e9ed-2ae781ed1af8" href="/blog/navigating-ai-in-marketing-strategies" class="card-cms blog w-inline-block">
+                                    <div class="tumbnail-wrapper">
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e3534093ef3c308b6836_Abstract%20Liquid%20Waves.jpeg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e3534093ef3c308b6836_Abstract%20Liquid%20Waves-p-500.jpeg 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e3534093ef3c308b6836_Abstract%20Liquid%20Waves-p-800.jpeg 800w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e3534093ef3c308b6836_Abstract%20Liquid%20Waves-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e3534093ef3c308b6836_Abstract%20Liquid%20Waves.jpeg 1200w" class="tumbnail blog"/>
+                                        <div class="icon-wrapper popup blog">
+                                            <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_mynaui--arrow-up-right%20(2).png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_d84d6261ad601210f1acbe257af4c9e4_mynaui--arrow-up-right%2520%25282%2529-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_mynaui--arrow-up-right%20(2).png 512w" sizes="45px" class="icon"/>
+                                        </div>
+                                    </div>
+                                    <div class="content-cms-item blog">
+                                        <div class="sub-heading-regular left for-sub-blog">AI in Marketing</div>
+                                        <div class="badge">
+                                            <div class="tittle-badge">Update</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="w-node-_614cfefb-4236-d306-e9ed-2ae781ed1af7-ba653da3" role="listitem" class="item blog w-dyn-item">
+                                <a data-w-id="614cfefb-4236-d306-e9ed-2ae781ed1af8" href="/blog/ai-in-healthcare-innovations-and-challenges" class="card-cms blog w-inline-block">
+                                    <div class="tumbnail-wrapper">
+                                        <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e4913251da2771ca4a34_Abstract%20Metallic%20Ribbons.jpeg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e4913251da2771ca4a34_Abstract%20Metallic%20Ribbons-p-500.jpeg 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e4913251da2771ca4a34_Abstract%20Metallic%20Ribbons-p-800.jpeg 800w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e4913251da2771ca4a34_Abstract%20Metallic%20Ribbons-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653ddd/6912e4913251da2771ca4a34_Abstract%20Metallic%20Ribbons.jpeg 1200w" class="tumbnail blog"/>
+                                        <div class="icon-wrapper popup blog">
+                                            <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_mynaui--arrow-up-right%20(2).png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_d84d6261ad601210f1acbe257af4c9e4_mynaui--arrow-up-right%2520%25282%2529-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541ed_mynaui--arrow-up-right%20(2).png 512w" sizes="45px" class="icon"/>
+                                        </div>
+                                    </div>
+                                    <div class="content-cms-item blog">
+                                        <div class="sub-heading-regular left for-sub-blog">AI in Healthcare</div>
+                                        <div class="badge">
+                                            <div class="tittle-badge">New</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Testimonials" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="e1b22628-c779-be3f-9e63-5cec868f7e14" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-tittle center">
+                        <div class="badge">
+                            <div class="tittle-badge white">Testimonials</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">
+                                <span class="text-span">Hear from </span>
+                                satisfied customers.
+                            </h2>
+                            <p class="paragraph-large center">Discover what clients say about working with me.</p>
+                        </div>
+                    </div>
+                    <div data-w-id="1b6a55a0-e11d-2afe-17d5-e231e57c2906" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="grid testimonials">
+                        <a href="https://x.com" class="card testimonials w-inline-block">
+                            <div class="column-testimonials">
+                                <div class="column-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                </div>
+                                <div class="text left">
+                                    <div class="sub-heading-regular left">Design Smarter</div>
+                                    <p class="paragraph-regular left">&quot;AI helps me build websites in minutes, not days.&quot;</p>
+                                </div>
+                            </div>
+                            <div class="content-testimonials _2">
+                                <div class="name">
+                                    <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1321227438218547304.jpeg" alt="" class="user-profile"/>
+                                    <p class="paragraph-regular">getliquid </p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_017997b6bf6e5fba4e080dcbed9790c8_uil--instagram-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png 512w" class="icon mini"/>
+                                    <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://x.com" class="card testimonials w-inline-block">
+                            <div class="column-testimonials">
+                                <div class="column-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                </div>
+                                <div class="text left">
+                                    <div class="sub-heading-regular left">Launch Faster</div>
+                                    <p class="paragraph-regular left">&quot;We launched our site twice as fast with this platform.&quot;</p>
+                                </div>
+                            </div>
+                            <div class="content-testimonials _2">
+                                <div class="name">
+                                    <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/535857684172242956.png" alt="" class="user-profile"/>
+                                    <p class="paragraph-regular">damonccs</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_017997b6bf6e5fba4e080dcbed9790c8_uil--instagram-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png 512w" class="icon mini"/>
+                                    <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://x.com" class="card testimonials w-inline-block">
+                            <div class="column-testimonials">
+                                <div class="column-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691152b39472df5114fea3ff_pepicons-pencil--star-filled.png 512w" sizes="45px" class="icon"/>
+                                </div>
+                                <div class="text left">
+                                    <div class="sub-heading-regular left">Get Clear Insights</div>
+                                    <p class="paragraph-regular left">&quot;Turns data into simple, actionable insights instantly.&quot;</p>
+                                </div>
+                            </div>
+                            <div class="content-testimonials _2">
+                                <div class="name">
+                                    <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1204143244477202502.jpeg" alt="" class="user-profile"/>
+                                    <p class="paragraph-regular">vexzusiek</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img width="45" height="45" alt="" loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_017997b6bf6e5fba4e080dcbed9790c8_uil--instagram-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png 512w" class="icon mini"/>
+                                    <img src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6912a8c563edc57efb665044_Animate.png" loading="lazy" alt="Abstract partial circular arc with gradient shading from gray to white on a black background." class="animation-element"/>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div data-w-id="bc92ad6b-30b3-99df-ac8d-f36312027d2d" style="opacity:0;-webkit-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 11px, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="badge transparant">
+                        <div class="column-image">
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1321227438218547304.jpeg" alt="" class="profile-mini"/>
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/535857684172242956.png" alt="" class="profile-mini"/>
+                            <img loading="lazy" src="https://myvouch.es/storage/discord-avatars/1204143244477202502.jpeg" alt="" class="profile-mini"/>
+                        </div>
+                        <div class="tittle-badge">Loved by 1,500+ clients</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Faq" class="section">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div data-w-id="a99d5a64-33ff-ce81-7159-42c181e82be7" class="section-tittle center">
+                        <div class="badge">
+                            <div class="tittle-badge white">FAQ</div>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading-style-h2 center">Frequently asked questions</h2>
+                            <p class="paragraph-large center">Find answers to your questions and learn how we can boost your brand.</p>
+                        </div>
+                    </div>
+                    <div data-w-id="56cc5f5c-bb1c-3b36-6f19-4363a4117700" class="faq-list">
+                        <div data-w-id="38585e4d-70e1-aecc-4b2d-d1c3d4492e7c" class="faq-accordion">
+                            <div class="faq-question">
+                                <div class="sub-heading-large">What is an AI web platform ?</div>
+                                <div class="faq-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png 512w" sizes="45px" class="icon mini"/>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="paragraph-regular answer">It’s a tool that uses AI to help you design, build, and optimize websites automatically.</p>
+                            </div>
+                        </div>
+                        <div data-w-id="38585e4d-70e1-aecc-4b2d-d1c3d4492e7c" class="faq-accordion">
+                            <div class="faq-question">
+                                <div class="sub-heading-large">Do I need coding skills ?</div>
+                                <div class="faq-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png 512w" sizes="45px" class="icon mini"/>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="paragraph-regular answer">No, everything is drag-and-drop with AI-powered suggestions.</p>
+                            </div>
+                        </div>
+                        <div data-w-id="38585e4d-70e1-aecc-4b2d-d1c3d4492e7c" class="faq-accordion">
+                            <div class="faq-question">
+                                <div class="sub-heading-large">Can it create content too ?</div>
+                                <div class="faq-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png 512w" sizes="45px" class="icon mini"/>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="paragraph-regular answer">Yes, it can write text, generate images, and structure pages for you.</p>
+                            </div>
+                        </div>
+                        <div data-w-id="38585e4d-70e1-aecc-4b2d-d1c3d4492e7c" class="faq-accordion">
+                            <div class="faq-question">
+                                <div class="sub-heading-large">Is my data secure ?</div>
+                                <div class="faq-icon">
+                                    <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png" loading="lazy" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/691167a184c6852815deb259_ic--round-add.png 512w" sizes="45px" class="icon mini"/>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p class="paragraph-regular answer">Absolutely. All projects are protected with advanced encryption.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="Cta" class="section">
+            <div class="padding-global">
+                <div data-w-id="549e9f06-032e-97e4-a51f-e022bdd3e644" class="container-medium">
+                    <div class="cta">
+                        <div class="section-tittle center">
+                            <div class="badge">
+                                <div class="tittle-badge white">✨ Join 5,000+ AI Innovators</div>
+                            </div>
+                            <div class="text">
+                                <h2 class="heading-style-h2 center">Stay Ahead with AI Updates</h2>
+                                <p class="paragraph-large center">Receive AI trends and insights directly in your inbox.</p>
+                            </div>
+                            <div class="form-block w-form">
+                                <form id="wf-form-Email-Subscribe" name="wf-form-Email-Subscribe" data-name="Email Subscribe" method="get" class="form subscribes" data-wf-page-id="6911483925d3c8f4ba653da3" data-wf-element-id="549e9f06-032e-97e4-a51f-e022bdd3e652">
+                                    <div class="form-column">
+                                        <input class="text-field sub w-input" maxlength="256" name="Mail" data-name="Mail" placeholder="Yourmail@mail.com" type="email" id="Subscribe" required=""/>
+                                    </div>
+                                    <input type="submit" data-wait="Please wait..." class="button submit w-button" value="Subscribe"/>
+                                </form>
+                                <div class="success-message w-form-done">
+                                    <div class="paragraph-regular">Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="error-message w-form-fail">
+                                    <div class="paragraph-regular eror">Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
+                            <div class="slider-wrapper"></div>
+                            <div class="helper-column center">
+                                <div class="badge">
+                                    <div class="tittle-badge">Early Feature Access</div>
+                                </div>
+                                <div class="badge">
+                                    <div class="tittle-badge">Weekly Insights</div>
+                                </div>
+                                <div class="badge">
+                                    <div class="tittle-badge">Exclusive Resources</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <footer class="section footer">
+            <div class="padding-global">
+                <div class="container-medium">
+                    <div class="footer-content">
+                        <div class="column-foter">
+                            <div class="footer-wrapper">
+                                <div class="column-footer-logo">
+                                    <a href="/" aria-current="page" class="navbar-brand w-inline-block w--current">
+                                        <img loading="lazy" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911b99832f99a11b67bae99_Logo%20(4).png" alt="Aithra company logo with a white house icon inside a blue circle next to the text &#x27;Aithra&#x27;." class="logo"/>
+                                    </a>
+                                    <p class="paragraph-regular left sub">Code your Vision, build your future.</p>
+                                    <div class="column-icon">
+                                        <a href="https://instagram.com" target="_blank" class="icon-wrapper link w-inline-block">
+                                            <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png" loading="lazy" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_017997b6bf6e5fba4e080dcbed9790c8_uil--instagram-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541e5_uil--instagram.png 512w" class="icon mini"/>
+                                        </a>
+                                        <a href="https://fb.com" target="_blank" class="icon-wrapper link w-inline-block">
+                                            <img width="45" height="45" alt="" src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541db_prime--facebook.png" loading="lazy" sizes="45px" srcset="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541db_0596943c4a749797c9355d5e7bd818f6_prime--facebook-p-500.png 500w, https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/6911483925d3c8f4ba6541db_prime--facebook.png 512w" class="icon mini"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="container-menu"></div>
+                            </div>
+                            <div class="container-menu-footer">
+                                <div class="menu">
+                                    <div class="sub-menu">
+                                        <div class="sub-heading-regular">Pages</div>
+                                    </div>
+                                    <div class="menu-list">
+                                        <a href="/" aria-current="page" class="navbar-link w--current">Home</a>
+                                        <a href="/features" class="navbar-link">Features</a>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="sub-menu">
+                                        <div class="sub-heading-regular">Informations</div>
+                                    </div>
+                                    <div class="menu-list">
+                                        <a href="/pricing" class="navbar-link">Pricing</a>
+                                        <a href="/blog" class="navbar-link">Blog</a>
+                                    </div>
+                                </div>
+                                <div class="menu">
+                                    <div class="sub-menu">
+                                        <div class="sub-heading-regular">Contact</div>
+                                    </div>
+                                    <div class="menu-list">
+                                        <a href="mailto:Hello@mail.com" class="navbar-link">Hello@mail.com</a>
+                                        <a href="https://Maps.com" class="navbar-link">XYZ Square</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-footer">
+                            <p class="paragraph-regular left">© All Rights Reserved, 2025</p>
+                            <div class="container-menu"></div>
+                            <div class="menu buttom">
+                                <a href="/templates-info/license" class="navbar-link">License</a>
+                                <a href="/templates-info/changelog" class="navbar-link">Changelog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6911483925d3c8f4ba653dcf" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript"></script>
+        <script src="https://cdn.prod.website-files.com/6911483925d3c8f4ba653dcf/js/webflow.8dab7046.09b3bbd379ee218b.js" type="text/javascript"></script>
+        <script type="module" src="https://public.sellhub.cx/embeds.js"></script>
+    </body>
+</html>
